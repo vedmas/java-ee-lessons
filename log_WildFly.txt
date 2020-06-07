@@ -1,0 +1,6 @@
+19:24:19,705 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location c:\wildfly-19.1.0.Final\standalone\data\content\ca\cbdc55628cb995a27435bcda7f24fb8f58944f\content
+19:24:19,730 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "firat-ee-app.war" (runtime-name: "firat-ee-app.war")
+19:24:20,478 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.18.Final
+19:24:20,815 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started client-mappings cache from ejb container
+19:24:20,929 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/firat-ee-app' for server 'default-server'
+19:24:20,982 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "firat-ee-app.war" (runtime-name : "firat-ee-app.war")
