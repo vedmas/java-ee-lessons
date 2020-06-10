@@ -1,0 +1,14 @@
+/java-ee-lessons.iml
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea/
+/logs/
+/.iml/
+*.iml
+*.class
