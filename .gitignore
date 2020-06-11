@@ -12,3 +12,7 @@
 /.iml/
 *.iml
 *.class
+/firat-ee-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/firat-ee-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/firat-ee-app/target/firat-ee-app/WEB-INF/lib/slf4j-api-1.7.25.jar
+/firat-ee-app/target/firat-ee-app.war
