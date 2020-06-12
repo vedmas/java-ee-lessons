@@ -1,0 +1,18 @@
+#/java-ee-lessons.iml
+# Default ignored files
+#/shelf/
+#/workspace.xml
+# Datasource local storage ignored files
+#/dataSources/
+#/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea/
+/logs/
+/.iml/
+*.iml
+*.class
+/firat-ee-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/firat-ee-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/firat-ee-app/target/firat-ee-app/WEB-INF/lib/slf4j-api-1.7.25.jar
+/firat-ee-app/target/firat-ee-app.war

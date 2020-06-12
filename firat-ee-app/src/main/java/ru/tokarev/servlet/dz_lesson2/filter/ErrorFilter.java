@@ -1,23 +1,18 @@
-package ru.tokarev.servlet.filter;
+package ru.tokarev.servlet.dz_lesson2.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@WebFilter(urlPatterns = "/*")
-public class FooterFilter implements Filter {
-
+@WebFilter(urlPatterns = "/*", dispatcherTypes = DispatcherType.ERROR)
+public class ErrorFilter implements Filter {
 
     private FilterConfig filterConfig;
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-
-        servletResponse.setContentType("text/html; charset=utf-8");
         filterChain.doFilter(servletRequest, servletResponse);
-        servletResponse.getWriter().println("<hr>");
-        servletResponse.getWriter().println("<br>");
-        servletResponse.getWriter().println("<footer>Это лучший магазин!</footer>");
+        servletResponse.getWriter().println("<h3>Something went wrong!</h3>");
     }
 
     @Override
